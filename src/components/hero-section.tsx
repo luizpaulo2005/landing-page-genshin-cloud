@@ -8,10 +8,8 @@ export function HeroSection() {
       id="inicio"
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 lg:pt-20"
     >
-      {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-secondary/20" />
 
-      {/* Floating elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-primary/30 rounded-full blur-3xl animate-float" />
       <div
         className="absolute bottom-20 right-10 w-32 h-32 bg-secondary/30 rounded-full blur-3xl animate-float"
@@ -24,7 +22,7 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full mt-4">
             <Star className="w-4 h-4 text-primary fill-primary" />
             <span className="text-sm font-medium text-primary">
               Comunidade Oficial Brasileira
@@ -61,7 +59,6 @@ export function HeroSection() {
             </Button>
           </div>
 
-          {/* Hero image placeholder */}
           <div className="relative mt-12 lg:mt-16">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border/50">
               <img
