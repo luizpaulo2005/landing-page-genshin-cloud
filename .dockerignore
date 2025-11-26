@@ -1,0 +1,10 @@
+.next/cache
+node_modules
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+pnpm-debug.log
+.env.local
+.env.development
+.next
